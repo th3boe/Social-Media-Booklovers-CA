@@ -1,0 +1,16 @@
+.form-signin {
+  max-width: 350px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.btn {
+  background-color: $bg-nav-yellow;
+  color: white;
+  border: $border-bottom-nav;
+}
+
+.btn:hover {
+  background-color: $bg-header-yellow;
+  box-shadow: $box-shadow;
+}

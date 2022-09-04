@@ -10758,18 +10758,67 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.navbar {
+.form-signin {
+  max-width: 350px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.btn {
   background-color: #d5a91a;
-  border-bottom: black;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  color: white;
+  border: 1px solid #bb9519;
 }
 
-.navbar-nav {
+.btn:hover {
+  background-color: #d4a60e;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+nav {
+  background-color: #d5a91a;
+  border-bottom: 1px solid #bb9519;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  min-height: 45px;
+}
+
+header {
+  background-color: #d4a60e;
+  border-bottom: 1px solid #afafaf;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+  width: 100%;
+  max-width: 140px;
+  margin: 0px auto;
+}
+
+a:link {
   text-decoration: none;
+  padding: 20px;
 }
 
-body {
-  background-color: #d5d5d5;
+a {
+  color: white;
+}
+
+a.active {
+  font-weight: bold;
+}
+
+a:hover {
+  color: black;
+}
+
+.card {
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+.post-btn {
+  margin: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
