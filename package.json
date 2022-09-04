@@ -1,0 +1,29 @@
+{
+  "name": "book-lovers-repo",
+  "version": "1.0.0",
+  "description": "A platform where booklovers can meet, talk and recommend books to others.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th3boe/booklovers.git"
+  },
+  "keywords": [],
+  "author": "th3boe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/th3boe/booklovers/issues"
+  },
+  "homepage": "https://github.com/th3boe/booklovers#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.54.8"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
