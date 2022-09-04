@@ -10764,15 +10764,32 @@ textarea.form-control-lg {
   text-align: center;
 }
 
+.contact-list {
+  text-align: center;
+}
+
+.img {
+  float: left;
+  padding: 10px;
+}
+
 .btn {
   background-color: #d5a91a;
   color: white;
   border: 1px solid #bb9519;
+  margin: 5px;
 }
 
 .btn:hover {
   background-color: #d4a60e;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.form-error {
+  display: none;
+  color: rgb(180, 4, 4);
+  margin-top: 2px;
+  margin-bottom: 12px;
 }
 
 nav {
@@ -10796,7 +10813,6 @@ header {
 
 a:link {
   text-decoration: none;
-  padding: 20px;
 }
 
 a {

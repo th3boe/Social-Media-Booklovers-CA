@@ -13,11 +13,11 @@
     <nav class="py-2">
         <div class="container d-flex flex-wrap">
           <ul class="nav me-auto">
-            <li class="nav-item"><a href="Index.html">Home</a></li>
-            <li class="nav-item"><a href="profile.html">Profile</a></li>
+            <li class="nav-item"><a href="Index.html" class="px-4">Home</a></li>
+            <li class="nav-item"><a href="profile.html" class="px-4">Profile</a></li>
           </ul>
           <ul class="nav">
-            <li class="nav-item"><a href="login.html" class="active">Login</a></li>
+            <li class="nav-item"><a href="login.html" class="active px-4">Login</a></li>
           </ul>
         </div>
       </nav>
@@ -33,16 +33,18 @@
         </div>
       </header>
     <main class="form-signin">
-        <form>
+        <form id="login">
             <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
         
             <div class="form-floating">
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
               <label for="floatingInput">Email address</label>
+              <div class="form-error" id="emailError">Please enter a valid email adress.</div>
             </div>
             <div class="form-floating">
-              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password (3 characters or more">
               <label for="floatingPassword">Password</label>
+              <div class="form-error" id="passwordError">Your password must be at least 3 characters</div>
             </div>
         
             <div class="checkbox mb-3">
@@ -50,9 +52,12 @@
                 <input type="checkbox" value="remember-me"> Remember me
               </label>
             </div>
+            <a href="profile.html">
             <button class="w-100 btn btn-lg" type="submit">Sign in</button>
+            </a>
             <p class="mt-5 mb-3 text-muted">© 2017–2022</p>
         </form>
     </main>
+    <script src="js/form-validation.js"></script>
 </body>
 </html>
